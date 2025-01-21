@@ -1,0 +1,101 @@
+[
+    { pitchclass: "C", octave: 3 },
+    { pitchclass: "C#", octave: 3 },
+    { pitchclass: "D", octave: 3 },
+    { pitchclass: "D#", octave: 3 },
+    { pitchclass: "E", octave: 3 },
+    { pitchclass: "F", octave: 3 },
+    { pitchclass: "F#", octave: 3 },
+    { pitchclass: "G", octave: 3 },
+    { pitchclass: "G#", octave: 3 },
+    { pitchclass: "A", octave: 3 },
+    { pitchclass: "A#", octave: 3 },
+    { pitchclass: "B", octave: 3 },
+    { pitchclass: "C", octave: 4 },
+    { pitchclass: "C#", octave: 4 },
+    { pitchclass: "D", octave: 4 },
+    { pitchclass: "D#", octave: 4 },
+    { pitchclass: "E", octave: 4 },
+    { pitchclass: "F", octave: 4 },
+    { pitchclass: "F#", octave: 4 },
+    { pitchclass: "G", octave: 4 },
+    { pitchclass: "G#", octave: 4 },
+    { pitchclass: "A", octave: 4 },
+    { pitchclass: "A#", octave: 4 },
+    { pitchclass: "B", octave: 4 },
+    { pitchclass: "C", octave: 5 },
+  ]
+  <input
+          type="number"
+          name="synthattack"
+          min={0}
+          max={5}
+          step={0.1}
+          onChange={(e) => handleASDRChange(e.target.value, "attack")}
+        />
+        <label>Attack</label>
+<input
+          type="number"
+          name="synthdecay"
+          min={0}
+          max={10}
+          step={1}
+          onChange={(e) => handleASDRChange(e.target.value, "decay")}
+        />
+        <label>Decay</label>
+                <input
+          type="number"
+          name="synthsustain"
+          min={0}
+          max={1}
+          step={0.1}
+          onChange={(e) => handleASDRChange(e.target.value, "sustain")}
+        />
+        <label>Sustain</label>
+        <input
+          type="number"
+          name="synthrelease"
+          min={0}
+          max={5}
+          step={0.1}
+          onChange={(e) => handleASDRChange(e.target.value, "release")}
+        />
+        <label>Release</label>
+
+        /*<div>
+        <input
+          type="radio"
+          value="sine"
+          name="synthwave"
+          defaultChecked
+          onChange={(e) => handleWaveChange(e.target.value)}
+        />
+        <label>Sine</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="square"
+          name="synthwave"
+          onChange={(e) => handleWaveChange(e.target.value)}
+        />
+        <label>Square</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="sawtooth"
+          name="synthwave"
+          onChange={(e) => handleWaveChange(e.target.value)}
+        />
+        <label>Saw</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="triangle"
+          name="synthwave"
+          onChange={(e) => handleWaveChange(e.target.value)}
+        />
+        <label>Triangle</label>
+  </div>*/

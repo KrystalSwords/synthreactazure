@@ -1,0 +1,96 @@
+.keynat {
+  height: 175px;
+  width: 47px;
+  background-color: white;
+  border: 1px solid gray;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 0;
+  flex: 1;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.keynat span {
+  font-size: 10pt;
+  color: rgb(177, 177, 177);
+  text-align: left;
+  padding-left: 3px;
+  font-style: italic;
+}
+
+.keynatpressed {
+  height: 175px;
+  width: 47px;
+  background-color: gray;
+  border: 1px solid white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 0;
+  flex: 1;
+}
+
+.keynatpressed span {
+  font-size: 10pt;
+  color: rgb(177, 177, 177);
+  text-align: left;
+  padding-left: 3px;
+  font-style: italic;
+}
+
+.keyaccid {
+  height: 108px;
+  width: 32px;
+  background-color: black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  position: absolute;
+  margin-left: -16px;
+}
+
+.keyaccid span {
+  font-size: 10pt;
+  color: gray;
+  text-align: left;
+  padding-left: 3px;
+  font-style: italic;
+}
+
+.keyaccidpressed {
+  height: 108px;
+  width: 32px;
+  background-color: darkgrey;
+  border: 1px solid white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  position: absolute;
+  margin-left: -16px;
+}
+
+.keyaccidpressed span {
+  font-size: 10pt;
+  color: gray;
+  text-align: left;
+  padding-left: 3px;
+  font-style: italic;
+}

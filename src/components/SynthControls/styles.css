@@ -1,0 +1,29 @@
+.controls {
+  display: flex;
+}
+
+.pitchButtons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.oscOptions {
+  margin-bottom: 10px;
+  margin-left: 18px;
+}
+
+.titletext {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.cswitch {
+  margin-bottom: 20px;
+}

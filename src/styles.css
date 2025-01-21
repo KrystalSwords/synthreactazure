@@ -1,0 +1,28 @@
+.background {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: cyan;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: absolute;
+  background-position: top left;
+  background-size: contain;
+  background-image: linear-gradient(var(--primary-color), black);
+  /*background-image: url("./public/pexels-photo-998641.jpeg");
+*/
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 68px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}

@@ -1,0 +1,14 @@
+.controlset {
+  background-image: linear-gradient(var(--primary-color), black);
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.control {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: white;
+}
